@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "Pixel Invaders";
+    src: url("../fonts/pixel-invaders.ttf");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #151c38;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+canvas {
+    border: 4px solid darkgray;
+    cursor: none;
+}
